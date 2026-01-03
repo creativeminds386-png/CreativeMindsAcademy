@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Why Choose Us | Creative Minds Academy</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+<style>
+:root {
+    --primary-color: #003366;
+    --secondary-color: #FFD700;
+    --accent-color: #2AC1BC;
+    --text-color: #333;
+    --light-bg: #f9f9f9;
+}
+
+body {
+    margin:0;
+    font-family: 'Montserrat', sans-serif;
+    color: var(--text-color);
+    background: var(--light-bg);
+}
+
+a { text-decoration:none; color: inherit; }
+
+header {
+    background:white;
+    padding:1em 2em;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    box-shadow:0 2px 6px rgba(0,0,0,0.1);
+    position:sticky;
+    top:0;
+    z-index:100;
+}
+
+header img { height:60px; }
+
+nav ul {
+    list-style:none;
+    display:flex;
+    gap:1.5em;
+}
+
+nav a {
+    font-weight:600;
+    color:var(--primary-color);
+}
+
+nav a:hover { color: var(--secondary-color); }
+
+/* PAGE HEADER */
+.page-header {
+    text-align:center;
+    padding:4em 1em;
+    background: linear-gradient(135deg, #003366 30%, #FFD700 70%);
+    color:white;
+}
+
+.page-header h1 { font-size:2.5em; margin-bottom:0.5em; }
+.page-header p { font-size:1.2em; max-width:800px; margin:0 auto; }
+
+/* WHY US CONTENT */
+.why-us-content {
+    max-width:1000px;
+    margin:4em auto;
+    padding:0 1em;
+    display:flex;
+    flex-direction:column;
+    gap:2em;
+}
+
+.why-us-section {
+    background:white;
+    padding:1.5em 2em;
+    border-radius:12px;
+    box-shadow:0 6px 15px rgba(0,0,0,0.1);
+    display:flex;
+    align-items:flex-start;
+    gap:1em;
+    transition:0.3s;
+}
+
+.why-us-section:hover {
+    transform:translateY(-5px);
+    box-shadow:0 10px 25px rgba(0,0,0,0.15);
+}
+
+.why-us-section i {
+    color: var(--secondary-color);
+    font-size:1.5em;
+    flex-shrink:0;
+    margin-top:4px;
+}
+
+.why-us-section h2 { color: var(--primary-color); margin-bottom:0.3em; font-size:1.2em; }
+.why-us-section p { font-size:1.05em; line-height:1.6; margin:0; }
+
+/* PARTNERSHIP STEPS */
+.partnership {
+    max-width:1000px;
+    margin:4em auto;
+    padding:0 1em;
+}
+
+.partnership h2 {
+    color: var(--primary-color);
+    text-align:center;
+    margin-bottom:2em;
+}
+
+.steps {
+    display:flex;
+    flex-direction:column;
+    gap:1.5em;
+}
+
+.step {
+    background:white;
+    padding:1.5em 2em;
+    border-radius:12px;
+    box-shadow:0 6px 15px rgba(0,0,0,0.1);
+    transition:0.3s;
+}
+
+.step:hover {
+    transform:translateY(-3px);
+    box-shadow:0 10px 25px rgba(0,0,0,0.15);
+}
+
+.step h3 { color: var(--secondary-color); margin-bottom:0.5em; font-size:1.15em; }
+.step p { margin:0; font-size:1.05em; line-height:1.6; }
+
+/* BENEFITS */
+.benefits {
+    max-width:1000px;
+    margin:4em auto;
+    padding:0 1em;
+}
+
+.benefits h2 {
+    color: var(--primary-color);
+    text-align:center;
+    margin-bottom:2em;
+}
+
+.benefits ul {
+    list-style:none;
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+    gap:1.5em;
+}
+
+.benefits li {
+    background:white;
+    padding:1.5em 2em;
+    border-radius:12px;
+    box-shadow:0 6px 15px rgba(0,0,0,0.1);
+    transition:0.3s;
+}
+
+.benefits li:hover {
+    transform:translateY(-3px);
+    box-shadow:0 10px 25px rgba(0,0,0,0.15);
+}
+
+.benefits li i {
+    color: var(--secondary-color);
+    font-size:1.5em;
+    margin-right:0.5em;
+}
+
+.benefits li span { font-weight:bold; font-size:1.05em; }
+
+/* FOOTER */
+footer {
+    background:var(--primary-color);
+    color:var(--secondary-color);
+    text-align:center;
+    padding:3em 1em;
+    margin-top:4em;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <img src="images/CreativeMindsLogo.png.jpg" alt="Creative Minds Academy Logo">
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="programs.html">Programs</a></li>
+            <li><a href="why-us.html">Why Us</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<section class="page-header">
+    <h1>Why Choose Us</h1>
+    <p>We provide CBC-aligned specialist programs directly within schools, ensuring learners get high-quality, engaging lessons without adding extra workload to the school staff.</p>
+</section>
+
+<section class="why-us-content">
+
+    <!-- Existing 6 points can go here, as before -->
+    <div class="why-us-section">
+        <i class="fas fa-check-circle"></i>
+        <div>
+            <h2>CBC-Aligned Curriculum</h2>
+            <p>Our programs are designed around competency-based learning outcomes as required by CBC.</p>
+        </div>
+    </div>
+
+    <div class="why-us-section">
+        <i class="fas fa-check-circle"></i>
+        <div>
+            <h2>Professional Instructors</h2>
+            <p>All specialists are trained, disciplined, and experienced in teaching children.</p>
+        </div>
+    </div>
+
+    <div class="why-us-section">
+        <i class="fas fa-check-circle"></i>
+        <div>
+            <h2>Flexible Scheduling</h2>
+            <p>We adapt to your timetable—whether once a week, multiple sessions, or rotating classes.</p>
+        </div>
+    </div>
+
+    <div class="why-us-section">
+        <i class="fas fa-check-circle"></i>
+        <div>
+            <h2>Cost-Effective Outsourcing</h2>
+            <p>Schools enjoy premium programs without hiring extra full-time staff.</p>
+        </div>
+    </div>
+
+    <div class="why-us-section">
+        <i class="fas fa-check-circle"></i>
+        <div>
+            <h2>Zero Administrative Burden</h2>
+            <p>We handle lesson planning, attendance, reporting, and program execution.</p>
+        </div>
+    </div>
+
+    <div class="why-us-section">
+        <i class="fas fa-check-circle"></i>
+        <div>
+            <h2>Structured Progress Tracking</h2>
+            <p>Learners receive continuous assessment and termly feedback to track their growth and skills development.</p>
+        </div>
+    </div>
+
+</section>
+
+<!-- How Our Partnership Works -->
+<section class="partnership">
+    <h2>How Our Partnership Works</h2>
+    <div class="steps">
+        <div class="step">
+            <h3>Consultation</h3>
+            <p>We meet with the school to understand needs, timelines, and age groups.</p>
+        </div>
+        <div class="step">
+            <h3>Specialist Allocation</h3>
+            <p>We assign trained instructors to your school.</p>
+        </div>
+        <div class="step">
+            <h3>Lesson Delivery</h3>
+            <p>Programs run weekly within the school premises.</p>
+        </div>
+        <div class="step">
+            <h3>Monitoring & Reporting</h3>
+            <p>We track learner progress and provide termly reports.</p>
+        </div>
+        <div class="step">
+            <h3>End-of-Term Showcase</h3>
+            <p>Optional performances, competitions, or assessment days.</p>
+        </div>
+    </div>
+</section>
+
+<!-- Benefits to Your School -->
+<section class="benefits">
+    <h2>Benefits to Your School</h2>
+    <ul>
+        <li><i class="fas fa-star"></i><span>Expanded CBC offering</span> without increasing payroll</li>
+        <li><i class="fas fa-star"></i><span>Higher learner engagement</span></li>
+        <li><i class="fas fa-star"></i><span>Modern and attractive extracurricular portfolio</span></li>
+        <li><i class="fas fa-star"></i><span>Better talent identification and nurturing</span></li>
+        <li><i class="fas fa-star"></i><span>Stronger school brand for parents</span></li>
+        <li><i class="fas fa-star"></i><span>Increased enrollment appeal</span></li>
+    </ul>
+</section>
+
+<footer>
+    <p>&copy; Creative Minds Academy. All rights reserved.</p>
+</footer>
+
+</body>
+</html>

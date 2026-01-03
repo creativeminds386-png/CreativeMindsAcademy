@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact Us | Creative Minds Academy</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+<style>
+:root {
+    --primary-color: #003366;
+    --secondary-color: #FFD700;
+    --accent-color: #2AC1BC;
+    --text-color: #333;
+    --light-bg: #f9f9f9;
+}
+
+body {
+    margin:0;
+    font-family: 'Montserrat', sans-serif;
+    color: var(--text-color);
+    background: var(--light-bg);
+}
+
+a { text-decoration:none; color: inherit; }
+
+header {
+    background:white;
+    padding:1em 2em;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    box-shadow:0 2px 6px rgba(0,0,0,0.1);
+    position:sticky;
+    top:0;
+    z-index:100;
+}
+
+header img { height:60px; }
+
+nav ul {
+    list-style:none;
+    display:flex;
+    gap:1.5em;
+}
+
+nav a {
+    font-weight:600;
+    color:var(--primary-color);
+}
+
+nav a:hover { color: var(--secondary-color); }
+
+/* PAGE HEADER */
+.page-header {
+    text-align:center;
+    padding:4em 1em;
+    background: linear-gradient(135deg, #003366 30%, #FFD700 70%);
+    color:white;
+}
+
+.page-header h1 { font-size:2.5em; margin-bottom:0.5em; }
+.page-header p { font-size:1.2em; max-width:800px; margin:0 auto; }
+
+/* CONTACT SECTION */
+.contact-container {
+    max-width:1000px;
+    margin:4em auto;
+    padding:0 1em;
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:2em;
+}
+
+.contact-form {
+    background:white;
+    padding:2em;
+    border-radius:12px;
+    box-shadow:0 6px 15px rgba(0,0,0,0.1);
+}
+
+.contact-form h2 { color: var(--primary-color); margin-bottom:1em; }
+.contact-form input, .contact-form textarea {
+    width:100%;
+    padding:0.8em;
+    margin-bottom:1em;
+    border:1px solid #ccc;
+    border-radius:8px;
+    font-size:1em;
+    resize:none;
+}
+
+.contact-form button {
+    background:var(--primary-color);
+    color:white;
+    border:none;
+    padding:0.8em 2em;
+    border-radius:8px;
+    font-weight:bold;
+    cursor:pointer;
+    transition:0.3s;
+}
+
+.contact-form button:hover { background:var(--secondary-color); }
+
+/* CONTACT INFO */
+.contact-info {
+    background:white;
+    padding:2em;
+    border-radius:12px;
+    box-shadow:0 6px 15px rgba(0,0,0,0.1);
+}
+
+.contact-info h2 { color: var(--primary-color); margin-bottom:1em; }
+.contact-info p { margin-bottom:1em; font-size:1.05em; }
+.contact-info i { color: var(--secondary-color); margin-right:0.5em; }
+.contact-info a { color: var(--primary-color); }
+.contact-info a:hover { color: var(--secondary-color); }
+
+/* EXTRA SERVICES SECTION */
+.extra-services {
+    max-width:1000px;
+    margin:4em auto;
+    padding:0 1em;
+}
+
+.extra-services h2 {
+    color:#003366;
+    text-align:center;
+    margin-bottom:2em;
+}
+
+.extra-services-grid {
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+    gap:2em;
+}
+
+.extra-services-card {
+    background:white;
+    padding:2em;
+    border-radius:12px;
+    box-shadow:0 6px 15px rgba(0,0,0,0.1);
+    text-align:center;
+    transition:0.3s;
+}
+
+.extra-services-card h3 {
+    color:#FFD700;
+    margin-bottom:1em;
+}
+
+.extra-services-card p { font-size:1em; line-height:1.6; }
+
+/* FOOTER */
+footer {
+    background:var(--primary-color);
+    color:var(--secondary-color);
+    text-align:center;
+    padding:3em 1em;
+    margin-top:4em;
+}
+
+/* RESPONSIVE */
+@media (max-width:900px) {
+    .contact-container { grid-template-columns:1fr; }
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <img src="images/CreativeMindsLogo.png.jpg" alt="Creative Minds Academy Logo">
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="programs.html">Programs</a></li>
+            <li><a href="why-us.html">Why Us</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<section class="page-header">
+    <h1>Contact Us</h1>
+    <p>Reach out to Creative Minds Academy. We are ready to answer your questions, provide program details, or schedule a consultation.</p>
+</section>
+
+<section class="contact-container">
+
+    <!-- CONTACT FORM -->
+    <div class="contact-form">
+        <h2>Send Us a Message</h2>
+        <form action="mailto:info@creativemindsacademy.co.ke" method="post" enctype="text/plain">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" rows="6" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </div>
+
+    <!-- CONTACT INFORMATION -->
+    <div class="contact-info">
+        <h2>Contact Information</h2>
+        <p><i class="fas fa-phone"></i> <a href="tel:+254769390099">+254 769 390 099</a></p>
+        <p><i class="fas fa-envelope"></i> <a href="mailto:info@creativemindsacademy.co.ke">info@creativemindsacademy.co.ke</a></p>
+        <p><i class="fab fa-whatsapp"></i> <a href="https://wa.me/254769390099">Chat on WhatsApp</a></p>
+        <p><i class="fab fa-facebook"></i> <a href="https://www.facebook.com/">Facebook</a></p>
+        <p><i class="fab fa-instagram"></i> <a href="https://www.instagram.com/">Instagram</a></p>
+        <p><i class="fab fa-tiktok"></i> <a href="https://www.tiktok.com/en/">TikTok</a></p>
+    </div>
+
+</section>
+
+<!-- EXTRA SERVICES SECTION -->
+<section class="extra-services">
+    <h2>Extra Services</h2>
+    <div class="extra-services-grid">
+        <div class="extra-services-card">
+            <h3>Band & Entertainment Services</h3>
+            <p>
+                We provide dynamic entertainment for schools and special occasions. Our professional bands, choirs, and performers bring energy, creativity, and excitement to every event. From school functions, graduations, and end-of-term showcases to weddings, birthdays, and private celebrations, we create memorable experiences that delight learners, parents, and guests alike.
+            </p>
+        </div>
+        <!-- Additional services can be added here later -->
+    </div>
+</section>
+
+<footer>
+    <p>&copy; Creative Minds Academy. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
