@@ -1,4 +1,4 @@
-User-agent: *
-Allow: /
-
-Sitemap: https://creativemindsacademy.co.ke/sitemap.xml
+User-agent: * 
+Allow: / 
+ 
+Sitemap: https://www.creativemindsacademy.co.ke/sitemap.xml 
