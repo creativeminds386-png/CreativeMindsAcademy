@@ -1,39 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
-  <url>
-    <loc>https://creativemindsacademy.co.ke/</loc>
-    <lastmod>2026-01-19</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
-  </url>
+<url>
+  <loc>https://creativemindsacademy.co.ke/</loc>
+</url>
 
-  <url>
-    <loc>https://creativemindsacademy.co.ke/about.html</loc>
-    <lastmod>2026-01-19</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
+<url>
+  <loc>https://creativemindsacademy.co.ke/index.html</loc>
+</url>
 
-  <url>
-    <loc>https://creativemindsacademy.co.ke/programs.html</loc>
-    <lastmod>2026-01-19</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
+<url>
+  <loc>https://creativemindsacademy.co.ke/about.html</loc>
+</url>
 
-  <url>
-    <loc>https://creativemindsacademy.co.ke/why-us.html</loc>
-    <lastmod>2026-01-19</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
+<url>
+  <loc>https://creativemindsacademy.co.ke/contact.html</loc>
+</url>
 
-  <url>
-    <loc>https://creativemindsacademy.co.ke/contact.html</loc>
-    <lastmod>2026-01-19</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
+<url>
+  <loc>https://creativemindsacademy.co.ke/programs.html</loc>
+</url>
+
+<url>
+  <loc>https://creativemindsacademy.co.ke/why-us.html</loc>
+</url>
+
+<url>
+  <loc>https://creativemindsacademy.co.ke/elements.html</loc>
+</url>
+
+<url>
+  <loc>https://creativemindsacademy.co.ke/generic.html</loc>
+</url>
 
 </urlset>
